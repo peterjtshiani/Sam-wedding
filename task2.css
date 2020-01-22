@@ -1,0 +1,181 @@
+html {
+    width: auto;
+}
+
+a {
+    display: inline-block;
+}
+
+#menu1,
+#menu2,
+#menu3,
+#menu4,
+#menu5,
+#menu6,
+#menu7,
+#menu8,
+#menu9,
+#menu10 {
+    background-color: #FABB0B;
+    width: 200px;
+    /* height: 200px; */
+    align-self: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    ;
+}
+
+#result {
+    font-size: 25px;
+}
+
+
+/*styling the html body*/
+
+body {
+    background-color: #DCDCDC;
+    padding: 0;
+    height: 100%;
+    margin: auto;
+}
+
+
+/*styling the header of the html body*/
+
+.header {
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/* styling the navigation bar*/
+
+
+/*stling the order list item in the naviagtion bar*/
+
+ol {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #696969;
+    text-align: center;
+}
+
+
+/*styloing the navigation content*/
+
+.nav1 {
+    display: inline-block;
+}
+
+
+/* styling the link in the navigation bar*/
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 17px;
+}
+
+li a:link {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #FABB0B;
+}
+
+
+/*stling the headings*/
+
+h1 {
+    text-align: center;
+}
+
+
+/* Styling the dropdown button*/
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* styling the dropdown button when its hover.*/
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+
+/*styling the options in the dropdown menu being underneath each other*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/*styling the content in the dropdown menu*/
+
+.dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 50px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/*styling the link in the dropdown menu*/
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/*styling the link in the dropdown menu when its hover*/
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+
+/*styling how the dropdown menu shoule be display*/
+
+.show {
+    display: block;
+}
+
+
+/* Style the footer */
+
+.footer {
+    background-color: transparent;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 5px 7px;
+    text-align: center;
+    float: bottom;
+}
+
+s
